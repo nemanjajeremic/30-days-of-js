@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Thasadith"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+        <div id="particles-js"></div>
+    <div class="jumbotron">
+      <h1 class="display-4 text-center">Drum Kit</h1>
+      <p class="lead text-center">
+        This simple drum kit was created as a part of 30 day vanilla JS coding
+        challenge (<a class="custom-link" href="https://javascript30.com"
+          >https://javascript30.com</a
+        >).
+      </p>
+    </div>
+    <div class="row ">
+      <div class="container-fluid p-5">
+        <div class="card-group">
+          <div class="card">
+            <div class="card-body text-center" id="a">
+              <h2 class="card-title">A</h2>
+              <p class="card-text">CLAP</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body text-center" id="s">
+              <h2 class="card-title">S</h2>
+              <p class="card-text">BOOM</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body text-center" id="d">
+              <h2 class="card-title">D</h2>
+              <p class="card-text">HI-HAT</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body text-center" id="f">
+              <h2 class="card-title">F</h2>
+              <p class="card-text">KICK</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body text-center" id="g">
+              <h2 class="card-title">G</h2>
+              <p class="card-text">OPEN-HAT</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body text-center" id="h">
+              <h2 class="card-title">H</h2>
+              <p class="card-text">SNARE</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body text-center" id="j">
+              <h2 class="card-title">J</h2>
+              <p class="card-text">TINK</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body text-center" id="k">
+              <h2 class="card-title">K</h2>
+              <p class="card-text">TOM</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body text-center" id="l">
+              <h2 class="card-title">L</h2>
+              <p class="card-text">RIDE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <audio data-key="a" src="sounds/clap.wav"></audio>
+    <audio data-key="s" src="sounds/boom.wav"></audio>
+    <audio data-key="d" src="sounds/hihat.wav"></audio>
+    <audio data-key="f" src="sounds/kick.wav"></audio>
+    <audio data-key="g" src="sounds/openhat.wav"></audio>
+    <audio data-key="h" src="sounds/snare.wav"></audio>
+    <audio data-key="j" src="sounds/tink.wav"></audio>
+    <audio data-key="k" src="sounds/tom.wav"></audio>
+    <audio data-key="l" src="sounds/ride.wav"></audio>
+
+    <!-- Optional JavaScript -->
+    
+
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
